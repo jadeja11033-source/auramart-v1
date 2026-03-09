@@ -49,9 +49,9 @@ function Navbar() {
         ) : (
           // Agar user logged out hai toh Login/Signup dikhao
           <>
-            <Link to="/login" className="nav-item">
-              <LogIn size={20} /> <span>Login for admin</span>
-            </Link>
+            {/* <Link to="/login" className="nav-item">
+              <LogIn size={20} /> <span>Login for admin</span> */}
+            {/* </Link> */}
             <Link to="/signup" className="nav-item">
               <UserPlus size={20} /> <span>Signup and login for user</span>
             </Link>
